@@ -1,0 +1,17 @@
+------------ Good dominating set-----------
+    1  1
+------------ Value of size too big -------
+    1  1
+------------ Value of size too small ------
+    1  0
+------------ Vertex number negative -------
+    1  0
+------------ Vertex number too big --------
+    1  0
+------------ NOT a dominating set ---------
+    1  0
+------------ Incomplete dominating set ----
+    1  0
+------------ Continue after bad dom. set --
+    1  0
+    2  1

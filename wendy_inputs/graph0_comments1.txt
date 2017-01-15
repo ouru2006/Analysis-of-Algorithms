@@ -1,0 +1,47 @@
+------------ Loop detection ---------------
+Graph     1: BAD GRAPH
+------------ Multiple edge detection ------
+Graph     1: BAD GRAPH
+------------ Not symmetric ----------------
+Graph     1: BAD GRAPH
+------------ Neighbour value too big ------
+Graph   1 n=   3: (Size   3)   0   1   2 
+Error: NMAX is out of range
+Graph   2 n=   0: (Size   0) 
+Graph   3 n=   1: (Size   1)   0 
+
+Summary of dominating set orders:
+Order   0:     1
+Order   1:     1
+Order   3:     1
+------------ Neighbour value negative------
+Graph   1 n=   3: (Size   1)   1 
+
+Summary of dominating set orders:
+Order   1:     1
+------------ Value of n exceeds NMAX=100 --
+Error: NMAX is out of range
+Graph     1: BAD GRAPH
+------------ Value of n is negative -------
+Error: NMAX is out of range
+Graph   1 n=  -2: (Size  -2) 
+Graph   2 n=   2: (Size   2)   0   1 
+Graph   3 n=   5: (Size   5)   0   1   2   3   4 
+Graph   4 n=   2: (Size   2)   0   1 
+Graph   5 n=   2: (Size   2)   0   1 
+
+Summary of dominating set orders:
+Order   2:     3
+Order   5:     1
+------------ Stop on bad graph? -----------
+Graph     1: BAD GRAPH
+------------ Incomplete graph input -------
+Graph     1: BAD GRAPH
+------------ Degree negative -------
+Graph     1: BAD GRAPH
+------------ Degree too big ---------
+Graph   1 n=   1: (Size   1)   0 
+Graph   2 n=   1: (Size   1)   0 
+
+Summary of dominating set orders:
+Order   1:     2

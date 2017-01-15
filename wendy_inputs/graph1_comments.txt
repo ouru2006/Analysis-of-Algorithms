@@ -1,0 +1,52 @@
+------------ Loop detection ---------------
+Graph   1:
+  0( 1):   0 
+  1( 1):   1 
+  2( 1):   2 
+  3( 1):   3 
+*** Error- adjacency matrix is non-zero on the diagonal (loop): A[ 0][ 0] = 1
+Graph     1: BAD GRAPH
+------------ Multiple edge detection ------
+Graph   1:
+  0( 1):   1 
+  1( 1):   0 
+  2( 0): 
+  3( 0): 
+*** Error- adjacency matrix has multiple edges A[ 0][ 1] = 2
+Graph     1: BAD GRAPH
+------------ Not symmetric ----------------
+Graph   1:
+  0( 1):   1 
+  1( 1):   2 
+  2( 1):   0 
+*** Error- adjacency matrix is not symmetric: A[ 0][ 1] = 1, A[ 1][ 0]= 0
+Graph     1: BAD GRAPH
+------------ Neighbour value too big ------
+*** Error- Neighbour   0 of vertex   0 =   3 is out of range [0,   2]
+Graph     1: BAD GRAPH
+------------ Neighbour value negative------
+*** Error- Neighbour   0 of vertex   2 =  -3 is out of range [0,   2]
+Graph     1: BAD GRAPH
+------------ Value of n exceeds NMAX=100 --
+*** Error- n= 101 is out of range [1, 100]
+Graph     1: BAD GRAPH
+------------ Value of n is negative -------
+*** Error- n=  -2 is out of range [1, 100]
+Graph     1: BAD GRAPH
+------------ Stop on bad graph? -----------
+Graph   1:
+  0( 3):   1   2   3 
+  1( 2):   0   3 
+  2( 2):   0   3 
+  3( 3):   1   2   3 
+*** Error- adjacency matrix is not symmetric: A[ 0][ 3] = 1, A[ 3][ 0]= 0
+Graph     1: BAD GRAPH
+------------ Incomplete graph input -------
+*** Error- degree value missing for vertex   1
+Graph     1: BAD GRAPH
+------------ Degree negative -------
+*** Error- Degree of vertex   1 =  -1 is out of range [0,   3]
+Graph     1: BAD GRAPH
+------------ Degree too big ---------
+*** Error- Degree of vertex   0 =   1 is out of range [0,   0]
+Graph     1: BAD GRAPH

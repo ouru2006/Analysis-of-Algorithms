@@ -1,0 +1,25 @@
+
+echo "------------ Good dominating set-----------" > dom0_comments1.txt 
+./a.out 0 < id0_ok >> dom0_comments1.txt 
+
+echo "------------ Value of size too big -------" >> dom0_comments1.txt 
+./a.out 0 < id1_too_big >> dom0_comments1.txt 
+
+echo "------------ Value of size too small ------" >> dom0_comments1.txt 
+./a.out 0 < id2_too_small >> dom0_comments1.txt 
+
+echo "------------ Vertex number negative -------" >> dom0_comments1.txt 
+./a.out 0 < id3_value_too_small >> dom0_comments1.txt 
+
+echo "------------ Vertex number too big --------" >> dom0_comments1.txt 
+./a.out 0 < id4_value_too_big >> dom0_comments1.txt 
+
+echo "------------ NOT a dominating set ---------" >> dom0_comments1.txt 
+./a.out 0 < id5_not_dom >> dom0_comments1.txt 
+
+echo "------------ Incomplete dominating set ----" >> dom0_comments1.txt 
+./a.out 0 < id6_incomplete >> dom0_comments1.txt 
+
+echo "------------ Continue after bad dom. set --" >> dom0_comments1.txt 
+./a.out 0 < id7_continue >> dom0_comments1.txt 
+diff dom0_comments1.txt dom0_comments.txt 

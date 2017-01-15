@@ -1,0 +1,103 @@
+------------ Good dominating set-----------
+Graph   1:
+  0( 2):   1   3 
+  1( 2):   0   2 
+  2( 2):   1   3 
+  3( 2):   0   2 
+Proposed dominating set:
+  0   2 
+Graph     1: OK
+=============================
+Normal termination: Number of graphs   1
+------------ Value of size too big -------
+Graph   1:
+  0( 2):   1   3 
+  1( 2):   0   2 
+  2( 2):   1   3 
+  3( 2):   0   2 
+Proposed dominating set:
+  0   1   2   3   0 
+Error- dominating set size   5 is bigger than n   4
+Graph     1: BAD CERTIFICATE
+=============================
+Normal termination: Number of graphs   1
+------------ Value of size too small ------
+Graph   1:
+  0( 2):   1   3 
+  1( 2):   0   2 
+  2( 2):   1   3 
+  3( 2):   0   2 
+Proposed dominating set:
+
+Error- dominating set size  -2 is 0 or negative.
+Graph     1: BAD CERTIFICATE
+=============================
+Normal termination: Number of graphs   1
+------------ Vertex number negative -------
+Graph   1:
+  0( 2):   1   3 
+  1( 2):   0   2 
+  2( 2):   1   3 
+  3( 2):   0   2 
+Proposed dominating set:
+  0  -2 
+Error- Value  -2 in the certificate is not in the range [0,   3]
+Graph     1: BAD CERTIFICATE
+=============================
+Normal termination: Number of graphs   1
+------------ Vertex number too big --------
+Graph   1:
+  0( 2):   1   3 
+  1( 2):   0   2 
+  2( 2):   1   3 
+  3( 2):   0   2 
+Proposed dominating set:
+  0   4 
+Error- Value   4 in the certificate is not in the range [0,   3]
+Graph     1: BAD CERTIFICATE
+=============================
+Normal termination: Number of graphs   1
+------------ NOT a dominating set ---------
+Graph   1:
+  0( 1):   1 
+  1( 1):   0 
+  2( 1):   3 
+  3( 1):   2 
+  4( 1):   5 
+  5( 1):   4 
+Proposed dominating set:
+  0   1   2 
+Error- Vertex   4 is not dominated
+Graph     1: BAD CERTIFICATE
+=============================
+Normal termination: Number of graphs   1
+------------ Incomplete dominating set ----
+Graph   1:
+  0( 2):   1   3 
+  1( 2):   0   2 
+  2( 2):   1   3 
+  3( 2):   0   2 
+*** Error- missing certificate vertex   2 of   2
+*** Error: certificate is missing or incomplete for graph   1
+Graph     1: BAD CERTIFICATE
+------------ Continue after bad dom. set --
+Graph   1:
+  0( 2):   1   3 
+  1( 2):   0   2 
+  2( 2):   1   3 
+  3( 2):   0   2 
+Proposed dominating set:
+  0 
+Error- Vertex   2 is not dominated
+Graph     1: BAD CERTIFICATE
+=============================
+Graph   2:
+  0( 2):   1   3 
+  1( 2):   0   2 
+  2( 2):   1   3 
+  3( 2):   0   2 
+Proposed dominating set:
+  0   2 
+Graph     2: OK
+=============================
+Normal termination: Number of graphs   2

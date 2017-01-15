@@ -1,0 +1,6 @@
+Graph   1 n=  24: (Size   6)  12  14  15  20  22  23 
+Graph   2 n=  24: (Size   8)  12  13  14  15  20  21  22  23 
+
+Summary of dominating set orders:
+Order   6:     1
+Order   8:     1

@@ -1,0 +1,8 @@
+Graph   1 n=   3: (Size   1)   2 
+Graph   2 n=   9: (Size   3)   6   7   8 
+Graph   3 n=  27: (Size   5)   8  10  12  18  22 
+
+Summary of dominating set orders:
+Order   1:     1
+Order   3:     1
+Order   5:     1

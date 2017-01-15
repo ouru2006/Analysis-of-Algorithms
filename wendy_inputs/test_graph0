@@ -1,0 +1,38 @@
+
+echo "------------ Loop detection ---------------" > graph0_comments1.txt 
+./a.out 0 < i0loop >> graph0_comments1.txt 
+
+echo "------------ Multiple edge detection ------" >> graph0_comments1.txt 
+./a.out 0 < i1mult >> graph0_comments1.txt 
+
+echo "------------ Not symmetric ----------------" >> graph0_comments1.txt 
+./a.out 0 < i2digraph >> graph0_comments1.txt 
+
+echo "------------ Neighbour value too big ------" >> graph0_comments1.txt 
+./a.out 0 < i3big >> graph0_comments1.txt 
+
+echo "------------ Neighbour value negative------" >> graph0_comments1.txt 
+./a.out 0 < i4neg >> graph0_comments1.txt 
+
+echo "------------ Value of n exceeds NMAX=100 --" >> graph0_comments1.txt 
+./a.out 0 < i5nmax >> graph0_comments1.txt 
+
+echo "------------ Value of n is negative -------" >> graph0_comments1.txt 
+./a.out 0 < i6small >> graph0_comments1.txt 
+
+echo "------------ Stop on bad graph? -----------" >> graph0_comments1.txt 
+./a.out 0 < i7stop >> graph0_comments1.txt 
+
+echo "------------ Reinitialization problems ----" >> graph0_comments1.txt 
+./a.out 0 < i8_K100 >> graph0_comments1.txt 
+
+echo "------------ Incomplete graph input -------" >> graph0_comments1.txt 
+./a.out 0 < i9_incomplete >> graph0_comments1.txt 
+
+echo "------------ Degree negative -------" >> graph0_comments1.txt 
+./a.out 0 < i10_deg_neg >> graph0_comments1.txt 
+
+echo "------------ Degree too big ---------" >> graph0_comments1.txt 
+./a.out 0 < i11_deg_big >> graph0_comments1.txt 
+
+diff graph0_comments1.txt  graph0_comments.txt 

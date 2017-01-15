@@ -1,0 +1,5 @@
+time ./a.out  < icayley.txt > cert_cayley.txt
+time ./a.out  < ifootball.txt > cert_football.txt
+time ./a.out  < ifullerene.txt > cert_fullerene.txt
+time ./a.out  < ikneser.txt > cert_kneser.txt
+time ./a.out  < iqueen.txt > cert_queen.txt
